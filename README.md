@@ -6,5 +6,7 @@ This repository contains the code for the paper exploring the use of Large Langu
 ### Coming Soon
 The full code will be released after the review process is completed.
 
-### Route Choice of Two LLM-gpt35 Agents  Over Days
+### Example visualizations
 ![img](https://github.com/georgewanglz2019/LLMTraveler/blob/main/route_choices_of_two_agents.gif)  
+![img](https://github.com/georgewanglz2019/LLMTraveler/blob/main/LLMTravelers_avg_tt_small.gif)  
+![img](https://github.com/georgewanglz2019/LLMTraveler/blob/main/compare_with_MNL_RL.png)  
