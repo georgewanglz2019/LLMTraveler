@@ -6,6 +6,8 @@ This project explores the potential of Large Language Models (LLMs) to model hum
 If you are interested in the detailed methodology and results of this project, please refer to our paper:
 [AI-Driven Day-to-Day Route Choice](https://arxiv.org/abs/2412.03338)
 
+---------------------------------------------------------------------------------------------------
+
 ## Example visualizations
 ### Example 1: Individual-level behavior of LLMTravelers
 
@@ -28,6 +30,8 @@ The gif shows that all LLMTravelers converge toward a smaller travel time, indic
 ![img](https://github.com/georgewanglz2019/LLMTraveler/blob/main/Diff_methods_avg_tt.gif)  
 
 The gif shows that LLM-gpt35, MNL, and the RL-based agent converge to a similar average travel time of approximately 71.1 minutes. However, both LLM-gpt35 and the RL-based agent exhibit fluctuations around the user equilibrium, achieving slightly lower travel times, a behavior not seen in the MNL model. The MNL model converges faster in the initial days due to its method of sharing experiences across all routes and allocating choices proportionally. In contrast, LLM-gpt35 optimizes choices based on individual experience. Notably, the RL-based agent requires significantly more data—nearly 4000 days—to match LLM-gpt35’s convergence within 100 days, highlighting the low sample efficiency of reinforcement learning in this context.
+
+---------------------------------------------------------------------------------------------------
 
 ## Coming Soon
 The full code will be released after the review process is completed.
