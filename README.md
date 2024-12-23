@@ -1,10 +1,9 @@
 # LLMTraveler
+If you are interested in the detailed methodology and results of this project, please refer to our paper:
+[AI-Driven Day-to-Day Route Choice](https://arxiv.org/abs/2412.03338)
 
 ## Route Choice Modeling Using LLM-based Agent
 This project explores the potential of Large Language Models (LLMs) to model human-like route choice behavior by introducing the "LLMTraveler" agent, which integrates an LLM with a memory system for learning and adaptation. The study systematically evaluates the LLMTraveler’s ability to replicate human-like decision-making through two stages of day-to-day (DTD) congestion games: (1) analyzing its route-switching behavior in single origin-destination (OD) pair scenarios, where it demonstrates patterns that align with laboratory data but cannot be fully explained by traditional models, and (2) testing its ability to model adaptive learning behaviors in multi-OD scenarios on the Ortuzar and Willumsen (OW) network, producing results comparable to Multinomial Logit (MNL) and Reinforcement Learning (RL) models. These experiments demonstrate that the framework can partially replicate human-like decision-making in route choice, while also providing natural language explanations for its decisions.
-
-If you are interested in the detailed methodology and results of this project, please refer to our paper:
-[AI-Driven Day-to-Day Route Choice](https://arxiv.org/abs/2412.03338)
 
 ---------------------------------------------------------------------------------------------------
 
