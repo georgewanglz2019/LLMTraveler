@@ -36,6 +36,7 @@ The full code will be released after the review process is completed.
 
 ## Citation
 
+```python
 @article{wang2024ai,
   title={AI-Driven Day-to-Day Route Choice},
   author={Wang, Leizhen and Duan, Peibo and He, Zhengbing and Lyu, Cheng and Chen, Xin and Zheng, Nan and Yao, Li and Ma, Zhenliang},
