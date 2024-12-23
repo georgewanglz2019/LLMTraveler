@@ -8,8 +8,7 @@ If you are interested in the methodology and results of this project, please ref
 ### Example visualizations
 ![img](https://github.com/georgewanglz2019/LLMTraveler/blob/main/route_choices_of_two_agents_small.gif)  
 ![img](https://github.com/georgewanglz2019/LLMTraveler/blob/main/LLMTravelers_avg_tt_small.gif)  
-#### Travel time over days of different methods
-![img](https://github.com/georgewanglz2019/LLMTraveler/blob/main/compare_with_MNL_RL.png)  
+![img](https://github.com/georgewanglz2019/LLMTraveler/blob/main/Diff_methods_avg_tt.gif)  
 
 ### Coming Soon
 The full code will be released after the review process is completed.
