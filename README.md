@@ -15,7 +15,7 @@ If you are interested in the detailed methodology and results of this project, p
 ![img](https://github.com/georgewanglz2019/LLMTraveler/blob/main/route_choices_of_two_agents_small.gif)  
 The gif shows the route choice evolution of two LLM-gpt35-based agents (Daniel Nguyen and Jessica Ramirez) in the OW network, traveling between the same origin and destination. Initially, Daniel explored from "Route 0" to "Route 4," while Jessica moved from "Route 4" to "Route 1." Daily fluctuations in travel time influenced their perception of the average travel time for each route, leading to different learning outcomes. After 50 days, Jessica consistently chose "Route 2," while Daniel identified "Route 1" as optimal after 80 days. Their distinct exploration and memory-based decision-making led to different route choices.
 
-https://private-user-images.githubusercontent.com/46119396/398335439-3f59453b-018b-4dc0-be36-7a2f9de169da.mp4
+https://private-user-images.githubusercontent.com/46119396/398345665-847a675f-15f5-4cbb-84f9-e24a0cf51bde.mp4
 
 ---------------------------------------------------------------------------------------------------
 
