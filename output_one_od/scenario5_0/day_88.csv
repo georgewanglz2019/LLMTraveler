@@ -1,0 +1,273 @@
+unique_id,name,od,route_choice,reason,route_tt,prompt,is_shortest
+0,Paul Torres,A_B,route_a,"Based on the historical travel data, route_a has a lower Experience Weighted Moving Average Travel Time compared to route_b. Additionally, choosing route_a today may increase the likelihood of a shorter travel time and a higher bonus, considering the randomness in others' choices.",38,"
+Your name is Paul Torres. You are a male character, aged between 25 and 34, with a high income level, self-employed, with a master's degree, risk-averse, and traveling for leisure.  
+
+You are participating in a congestion game over 100 days (from day 0 to day 99), and today is day 88.In this game, your rewards depend on others’ choices. Every day, you need to drive from location A to location B, choosing between two routes. At the end of the game, you will be paid a reward consisting of a 15 RMB show-up fee plus a performance-based bonus. The bonus is calculated by subtracting your travel time from a fixed reward.
+
+Here is your historical travel data:
+Yesterday: route_a’s travel time was 10, route_b’s travel time was 54, and you chose route_b.
+Yesterday, you received a -0.28 RMB bonus, bringing your cumulative bonus to 0.5800000000000013 RMB.
+Your historical travel experiences for each route over the past 89 days are as follows:
+route_a: Chosen 49 times, with an Experience Weighted Moving Average Travel Time of 34.32
+route_b: Chosen 39 times, with an Experience Weighted Moving Average Travel Time of 50.91
+
+
+Please think step by step. Please note that the shorter the travel time for the route you choose each day, the higher the bonus you will receive. Keep in mind that this is a game where your travel time is influenced by the choices of others. Since others have access to similar information, you must maximize your own benefit while anticipating their decisions. Additionally, your selection strategy should include an element of randomness.
+
+Please reason and choose route_a or route_b for today. Respond directly in JSON format, including 'Reason' (e.g., ...) and 'Choice' (e.g., route_i), without any additional text or explanations.
+        ",True
+1,Mary Garcia,A_B,route_a,"Route_a has a lower Experience Weighted Moving Average Travel Time compared to route_b, and I have a higher chance of receiving a higher bonus by choosing route_a.",38,"
+Your name is Mary Garcia. You are a male character, aged between 18 and 24, with a middle income level, a student, with a master's degree, risk-averse, and traveling for leisure.  
+
+You are participating in a congestion game over 100 days (from day 0 to day 99), and today is day 88.In this game, your rewards depend on others’ choices. Every day, you need to drive from location A to location B, choosing between two routes. At the end of the game, you will be paid a reward consisting of a 15 RMB show-up fee plus a performance-based bonus. The bonus is calculated by subtracting your travel time from a fixed reward.
+
+Here is your historical travel data:
+Yesterday: route_a’s travel time was 10, route_b’s travel time was 54, and you chose route_b.
+Yesterday, you received a -0.28 RMB bonus, bringing your cumulative bonus to 5.699999999999996 RMB.
+Your historical travel experiences for each route over the past 89 days are as follows:
+route_a: Chosen 50 times, with an Experience Weighted Moving Average Travel Time of 35.99
+route_b: Chosen 38 times, with an Experience Weighted Moving Average Travel Time of 49.67
+
+
+Please think step by step. Please note that the shorter the travel time for the route you choose each day, the higher the bonus you will receive. Keep in mind that this is a game where your travel time is influenced by the choices of others. Since others have access to similar information, you must maximize your own benefit while anticipating their decisions. Additionally, your selection strategy should include an element of randomness.
+
+Please reason and choose route_a or route_b for today. Respond directly in JSON format, including 'Reason' (e.g., ...) and 'Choice' (e.g., route_i), without any additional text or explanations.
+        ",True
+2,William Clark,A_B,route_a,"Route_a has a lower Experience Weighted Moving Average Travel Time compared to route_b, and I have historically received a higher bonus when choosing route_a. Additionally, I need to consider the potential choices of others and introduce an element of randomness into my selection strategy.",38,"
+Your name is William Clark. You are a male character, aged between 45 and 54, with a middle income level, self-employed, with a high school education, risk-averse, and traveling for commuting.  
+
+You are participating in a congestion game over 100 days (from day 0 to day 99), and today is day 88.In this game, your rewards depend on others’ choices. Every day, you need to drive from location A to location B, choosing between two routes. At the end of the game, you will be paid a reward consisting of a 15 RMB show-up fee plus a performance-based bonus. The bonus is calculated by subtracting your travel time from a fixed reward.
+
+Here is your historical travel data:
+Yesterday: route_a’s travel time was 10, route_b’s travel time was 54, and you chose route_a.
+Yesterday, you received a 0.6 RMB bonus, bringing your cumulative bonus to 2.640000000000002 RMB.
+Your historical travel experiences for each route over the past 89 days are as follows:
+route_a: Chosen 51 times, with an Experience Weighted Moving Average Travel Time of 29.63
+route_b: Chosen 37 times, with an Experience Weighted Moving Average Travel Time of 50.19
+
+
+Please think step by step. Please note that the shorter the travel time for the route you choose each day, the higher the bonus you will receive. Keep in mind that this is a game where your travel time is influenced by the choices of others. Since others have access to similar information, you must maximize your own benefit while anticipating their decisions. Additionally, your selection strategy should include an element of randomness.
+
+Please reason and choose route_a or route_b for today. Respond directly in JSON format, including 'Reason' (e.g., ...) and 'Choice' (e.g., route_i), without any additional text or explanations.
+        ",True
+3,Edward Clark,A_B,route_a,"Route_a has a lower Experience Weighted Moving Average Travel Time compared to route_b, and given the historical data, it is more likely to result in a shorter travel time today. Additionally, introducing an element of randomness in the selection strategy may help in maximizing the potential bonus.",38,"
+Your name is Edward Clark. You are a non-binary or other gender character, aged 65 or older, with a low income level, a student, with a master's degree, risk-neutral, and traveling for shopping.  
+
+You are participating in a congestion game over 100 days (from day 0 to day 99), and today is day 88.In this game, your rewards depend on others’ choices. Every day, you need to drive from location A to location B, choosing between two routes. At the end of the game, you will be paid a reward consisting of a 15 RMB show-up fee plus a performance-based bonus. The bonus is calculated by subtracting your travel time from a fixed reward.
+
+Here is your historical travel data:
+Yesterday: route_a’s travel time was 10, route_b’s travel time was 54, and you chose route_b.
+Yesterday, you received a -0.28 RMB bonus, bringing your cumulative bonus to 1.8200000000000032 RMB.
+Your historical travel experiences for each route over the past 89 days are as follows:
+route_a: Chosen 52 times, with an Experience Weighted Moving Average Travel Time of 31.45
+route_b: Chosen 36 times, with an Experience Weighted Moving Average Travel Time of 52.66
+
+
+Please think step by step. Please note that the shorter the travel time for the route you choose each day, the higher the bonus you will receive. Keep in mind that this is a game where your travel time is influenced by the choices of others. Since others have access to similar information, you must maximize your own benefit while anticipating their decisions. Additionally, your selection strategy should include an element of randomness.
+
+Please reason and choose route_a or route_b for today. Respond directly in JSON format, including 'Reason' (e.g., ...) and 'Choice' (e.g., route_i), without any additional text or explanations.
+        ",True
+4,Nancy Walker,A_B,route_a,"Route_a has a lower Experience Weighted Moving Average Travel Time compared to route_b, and I have a higher chance of receiving a higher bonus by choosing route_a.",38,"
+Your name is Nancy Walker. You are a male character, aged between 18 and 24, with a middle income level, an employee, with an associate degree, risk-neutral, and traveling for commuting.  
+
+You are participating in a congestion game over 100 days (from day 0 to day 99), and today is day 88.In this game, your rewards depend on others’ choices. Every day, you need to drive from location A to location B, choosing between two routes. At the end of the game, you will be paid a reward consisting of a 15 RMB show-up fee plus a performance-based bonus. The bonus is calculated by subtracting your travel time from a fixed reward.
+
+Here is your historical travel data:
+Yesterday: route_a’s travel time was 10, route_b’s travel time was 54, and you chose route_b.
+Yesterday, you received a -0.28 RMB bonus, bringing your cumulative bonus to 5.3599999999999985 RMB.
+Your historical travel experiences for each route over the past 89 days are as follows:
+route_a: Chosen 50 times, with an Experience Weighted Moving Average Travel Time of 30.88
+route_b: Chosen 38 times, with an Experience Weighted Moving Average Travel Time of 48.29
+
+
+Please think step by step. Please note that the shorter the travel time for the route you choose each day, the higher the bonus you will receive. Keep in mind that this is a game where your travel time is influenced by the choices of others. Since others have access to similar information, you must maximize your own benefit while anticipating their decisions. Additionally, your selection strategy should include an element of randomness.
+
+Please reason and choose route_a or route_b for today. Respond directly in JSON format, including 'Reason' (e.g., ...) and 'Choice' (e.g., route_i), without any additional text or explanations.
+        ",True
+5,Edward Carter,A_B,route_a,"Route A has a lower Experience Weighted Moving Average Travel Time compared to Route B, and I have historically chosen Route B more often. Additionally, I need to take a risk-averse approach to maximize my bonus. Therefore, I will choose Route A today.",38,"
+Your name is Edward Carter. You are a female character, aged between 35 and 44, with a high income level, an employee, with a master's degree, risk-averse, and traveling for leisure.  
+
+You are participating in a congestion game over 100 days (from day 0 to day 99), and today is day 88.In this game, your rewards depend on others’ choices. Every day, you need to drive from location A to location B, choosing between two routes. At the end of the game, you will be paid a reward consisting of a 15 RMB show-up fee plus a performance-based bonus. The bonus is calculated by subtracting your travel time from a fixed reward.
+
+Here is your historical travel data:
+Yesterday: route_a’s travel time was 10, route_b’s travel time was 54, and you chose route_b.
+Yesterday, you received a -0.28 RMB bonus, bringing your cumulative bonus to -2.579999999999999 RMB.
+Your historical travel experiences for each route over the past 89 days are as follows:
+route_a: Chosen 47 times, with an Experience Weighted Moving Average Travel Time of 37.13
+route_b: Chosen 41 times, with an Experience Weighted Moving Average Travel Time of 50.01
+
+
+Please think step by step. Please note that the shorter the travel time for the route you choose each day, the higher the bonus you will receive. Keep in mind that this is a game where your travel time is influenced by the choices of others. Since others have access to similar information, you must maximize your own benefit while anticipating their decisions. Additionally, your selection strategy should include an element of randomness.
+
+Please reason and choose route_a or route_b for today. Respond directly in JSON format, including 'Reason' (e.g., ...) and 'Choice' (e.g., route_i), without any additional text or explanations.
+        ",True
+6,Sandra Jackson,A_B,route_a,"Route_a has a lower Experience Weighted Moving Average Travel Time compared to route_b, and I have chosen route_b more frequently in the past. Additionally, I need to take a risk-seeking approach to potentially maximize my bonus.",38,"
+Your name is Sandra Jackson. You are a female character, aged between 35 and 44, with a middle income level, self-employed, with a doctorate, risk-seeking, and traveling for education.  
+
+You are participating in a congestion game over 100 days (from day 0 to day 99), and today is day 88.In this game, your rewards depend on others’ choices. Every day, you need to drive from location A to location B, choosing between two routes. At the end of the game, you will be paid a reward consisting of a 15 RMB show-up fee plus a performance-based bonus. The bonus is calculated by subtracting your travel time from a fixed reward.
+
+Here is your historical travel data:
+Yesterday: route_a’s travel time was 10, route_b’s travel time was 54, and you chose route_b.
+Yesterday, you received a -0.28 RMB bonus, bringing your cumulative bonus to 4.440000000000002 RMB.
+Your historical travel experiences for each route over the past 89 days are as follows:
+route_a: Chosen 51 times, with an Experience Weighted Moving Average Travel Time of 29.55
+route_b: Chosen 37 times, with an Experience Weighted Moving Average Travel Time of 48.39
+
+
+Please think step by step. Please note that the shorter the travel time for the route you choose each day, the higher the bonus you will receive. Keep in mind that this is a game where your travel time is influenced by the choices of others. Since others have access to similar information, you must maximize your own benefit while anticipating their decisions. Additionally, your selection strategy should include an element of randomness.
+
+Please reason and choose route_a or route_b for today. Respond directly in JSON format, including 'Reason' (e.g., ...) and 'Choice' (e.g., route_i), without any additional text or explanations.
+        ",True
+7,Mary Green,A_B,route_a,"Route_a has a lower Experience Weighted Moving Average Travel Time compared to route_b, and I have historically received a higher bonus when choosing route_a. Additionally, I need to consider the potential choices of others and introduce an element of randomness into my selection strategy.",38,"
+Your name is Mary Green. You are a male character, aged between 55 and 64, with a middle income level, self-employed, with a bachelor's degree, risk-averse, and traveling for commuting.  
+
+You are participating in a congestion game over 100 days (from day 0 to day 99), and today is day 88.In this game, your rewards depend on others’ choices. Every day, you need to drive from location A to location B, choosing between two routes. At the end of the game, you will be paid a reward consisting of a 15 RMB show-up fee plus a performance-based bonus. The bonus is calculated by subtracting your travel time from a fixed reward.
+
+Here is your historical travel data:
+Yesterday: route_a’s travel time was 10, route_b’s travel time was 54, and you chose route_a.
+Yesterday, you received a 0.6 RMB bonus, bringing your cumulative bonus to 3.6399999999999992 RMB.
+Your historical travel experiences for each route over the past 89 days are as follows:
+route_a: Chosen 51 times, with an Experience Weighted Moving Average Travel Time of 29.23
+route_b: Chosen 37 times, with an Experience Weighted Moving Average Travel Time of 50.17
+
+
+Please think step by step. Please note that the shorter the travel time for the route you choose each day, the higher the bonus you will receive. Keep in mind that this is a game where your travel time is influenced by the choices of others. Since others have access to similar information, you must maximize your own benefit while anticipating their decisions. Additionally, your selection strategy should include an element of randomness.
+
+Please reason and choose route_a or route_b for today. Respond directly in JSON format, including 'Reason' (e.g., ...) and 'Choice' (e.g., route_i), without any additional text or explanations.
+        ",True
+8,Susan Martin,A_B,route_a,"Route_a has a lower Experience Weighted Moving Average Travel Time compared to route_b, and I have a higher chance of receiving a higher bonus by choosing route_a.",38,"
+Your name is Susan Martin. You are a male character, aged between 25 and 34, with a low income level, self-employed, with a high school education, risk-seeking, and traveling for shopping.  
+
+You are participating in a congestion game over 100 days (from day 0 to day 99), and today is day 88.In this game, your rewards depend on others’ choices. Every day, you need to drive from location A to location B, choosing between two routes. At the end of the game, you will be paid a reward consisting of a 15 RMB show-up fee plus a performance-based bonus. The bonus is calculated by subtracting your travel time from a fixed reward.
+
+Here is your historical travel data:
+Yesterday: route_a’s travel time was 10, route_b’s travel time was 54, and you chose route_b.
+Yesterday, you received a -0.28 RMB bonus, bringing your cumulative bonus to 0.9600000000000029 RMB.
+Your historical travel experiences for each route over the past 89 days are as follows:
+route_a: Chosen 50 times, with an Experience Weighted Moving Average Travel Time of 34.1
+route_b: Chosen 38 times, with an Experience Weighted Moving Average Travel Time of 50.27
+
+
+Please think step by step. Please note that the shorter the travel time for the route you choose each day, the higher the bonus you will receive. Keep in mind that this is a game where your travel time is influenced by the choices of others. Since others have access to similar information, you must maximize your own benefit while anticipating their decisions. Additionally, your selection strategy should include an element of randomness.
+
+Please reason and choose route_a or route_b for today. Respond directly in JSON format, including 'Reason' (e.g., ...) and 'Choice' (e.g., route_i), without any additional text or explanations.
+        ",True
+9,Daniel King,A_B,route_a,"Route_a has a lower Experience Weighted Moving Average Travel Time compared to route_b, and I have a higher chance of receiving a higher bonus by choosing route_a.",38,"
+Your name is Daniel King. You are a non-binary or other gender character, aged between 35 and 44, with a low income level, a student, with an associate degree, risk-seeking, and traveling for commuting.  
+
+You are participating in a congestion game over 100 days (from day 0 to day 99), and today is day 88.In this game, your rewards depend on others’ choices. Every day, you need to drive from location A to location B, choosing between two routes. At the end of the game, you will be paid a reward consisting of a 15 RMB show-up fee plus a performance-based bonus. The bonus is calculated by subtracting your travel time from a fixed reward.
+
+Here is your historical travel data:
+Yesterday: route_a’s travel time was 10, route_b’s travel time was 54, and you chose route_b.
+Yesterday, you received a -0.28 RMB bonus, bringing your cumulative bonus to 3.6200000000000028 RMB.
+Your historical travel experiences for each route over the past 89 days are as follows:
+route_a: Chosen 52 times, with an Experience Weighted Moving Average Travel Time of 31.76
+route_b: Chosen 36 times, with an Experience Weighted Moving Average Travel Time of 52.31
+
+
+Please think step by step. Please note that the shorter the travel time for the route you choose each day, the higher the bonus you will receive. Keep in mind that this is a game where your travel time is influenced by the choices of others. Since others have access to similar information, you must maximize your own benefit while anticipating their decisions. Additionally, your selection strategy should include an element of randomness.
+
+Please reason and choose route_a or route_b for today. Respond directly in JSON format, including 'Reason' (e.g., ...) and 'Choice' (e.g., route_i), without any additional text or explanations.
+        ",True
+10,Edward Williams,A_B,route_a,"Route_a has a lower Experience Weighted Moving Average Travel Time compared to route_b, and I have chosen route_b more frequently in the past. Additionally, I need to take a risk-averse approach to maximize my bonus. Therefore, I will choose route_a today.",38,"
+Your name is Edward Williams. You are a male character, aged between 25 and 34, with a middle income level, an employee, with a high school education, risk-averse, and traveling for education.  
+
+You are participating in a congestion game over 100 days (from day 0 to day 99), and today is day 88.In this game, your rewards depend on others’ choices. Every day, you need to drive from location A to location B, choosing between two routes. At the end of the game, you will be paid a reward consisting of a 15 RMB show-up fee plus a performance-based bonus. The bonus is calculated by subtracting your travel time from a fixed reward.
+
+Here is your historical travel data:
+Yesterday: route_a’s travel time was 10, route_b’s travel time was 54, and you chose route_b.
+Yesterday, you received a -0.28 RMB bonus, bringing your cumulative bonus to -2.2799999999999976 RMB.
+Your historical travel experiences for each route over the past 89 days are as follows:
+route_a: Chosen 47 times, with an Experience Weighted Moving Average Travel Time of 37.12
+route_b: Chosen 41 times, with an Experience Weighted Moving Average Travel Time of 50.01
+
+
+Please think step by step. Please note that the shorter the travel time for the route you choose each day, the higher the bonus you will receive. Keep in mind that this is a game where your travel time is influenced by the choices of others. Since others have access to similar information, you must maximize your own benefit while anticipating their decisions. Additionally, your selection strategy should include an element of randomness.
+
+Please reason and choose route_a or route_b for today. Respond directly in JSON format, including 'Reason' (e.g., ...) and 'Choice' (e.g., route_i), without any additional text or explanations.
+        ",True
+11,Amanda Johnson,A_B,route_a,"Route_a has a lower Experience Weighted Moving Average Travel Time compared to route_b, and I have a higher chance of receiving a higher bonus by choosing route_a.",38,"
+Your name is Amanda Johnson. You are a female character, aged between 35 and 44, with a low income level, retired, with a master's degree, risk-neutral, and traveling for commuting.  
+
+You are participating in a congestion game over 100 days (from day 0 to day 99), and today is day 88.In this game, your rewards depend on others’ choices. Every day, you need to drive from location A to location B, choosing between two routes. At the end of the game, you will be paid a reward consisting of a 15 RMB show-up fee plus a performance-based bonus. The bonus is calculated by subtracting your travel time from a fixed reward.
+
+Here is your historical travel data:
+Yesterday: route_a’s travel time was 10, route_b’s travel time was 54, and you chose route_b.
+Yesterday, you received a -0.28 RMB bonus, bringing your cumulative bonus to 1.0600000000000007 RMB.
+Your historical travel experiences for each route over the past 89 days are as follows:
+route_a: Chosen 50 times, with an Experience Weighted Moving Average Travel Time of 35.13
+route_b: Chosen 38 times, with an Experience Weighted Moving Average Travel Time of 50.57
+
+
+Please think step by step. Please note that the shorter the travel time for the route you choose each day, the higher the bonus you will receive. Keep in mind that this is a game where your travel time is influenced by the choices of others. Since others have access to similar information, you must maximize your own benefit while anticipating their decisions. Additionally, your selection strategy should include an element of randomness.
+
+Please reason and choose route_a or route_b for today. Respond directly in JSON format, including 'Reason' (e.g., ...) and 'Choice' (e.g., route_i), without any additional text or explanations.
+        ",True
+12,Jessica Wilson,A_B,route_a,"Route A has a lower Experience Weighted Moving Average Travel Time compared to Route B, and I have a higher chance of receiving a higher bonus by choosing Route A.",38,"
+Your name is Jessica Wilson. You are a female character, aged between 25 and 34, with a middle income level, an employee, with a doctorate, risk-averse, and traveling for leisure.  
+
+You are participating in a congestion game over 100 days (from day 0 to day 99), and today is day 88.In this game, your rewards depend on others’ choices. Every day, you need to drive from location A to location B, choosing between two routes. At the end of the game, you will be paid a reward consisting of a 15 RMB show-up fee plus a performance-based bonus. The bonus is calculated by subtracting your travel time from a fixed reward.
+
+Here is your historical travel data:
+Yesterday: route_a’s travel time was 10, route_b’s travel time was 54, and you chose route_b.
+Yesterday, you received a -0.28 RMB bonus, bringing your cumulative bonus to 2.060000000000003 RMB.
+Your historical travel experiences for each route over the past 89 days are as follows:
+route_a: Chosen 50 times, with an Experience Weighted Moving Average Travel Time of 30.09
+route_b: Chosen 38 times, with an Experience Weighted Moving Average Travel Time of 47.28
+
+
+Please think step by step. Please note that the shorter the travel time for the route you choose each day, the higher the bonus you will receive. Keep in mind that this is a game where your travel time is influenced by the choices of others. Since others have access to similar information, you must maximize your own benefit while anticipating their decisions. Additionally, your selection strategy should include an element of randomness.
+
+Please reason and choose route_a or route_b for today. Respond directly in JSON format, including 'Reason' (e.g., ...) and 'Choice' (e.g., route_i), without any additional text or explanations.
+        ",True
+13,Richard Lopez,A_B,route_a,"Route_a has a lower Experience Weighted Moving Average Travel Time compared to route_b, and I have a higher chance of receiving a higher bonus by choosing route_a.",38,"
+Your name is Richard Lopez. You are a male character, aged between 45 and 54, with a middle income level, retired, with a high school education, risk-averse, and traveling for leisure.  
+
+You are participating in a congestion game over 100 days (from day 0 to day 99), and today is day 88.In this game, your rewards depend on others’ choices. Every day, you need to drive from location A to location B, choosing between two routes. At the end of the game, you will be paid a reward consisting of a 15 RMB show-up fee plus a performance-based bonus. The bonus is calculated by subtracting your travel time from a fixed reward.
+
+Here is your historical travel data:
+Yesterday: route_a’s travel time was 10, route_b’s travel time was 54, and you chose route_b.
+Yesterday, you received a -0.28 RMB bonus, bringing your cumulative bonus to -1.1799999999999975 RMB.
+Your historical travel experiences for each route over the past 89 days are as follows:
+route_a: Chosen 47 times, with an Experience Weighted Moving Average Travel Time of 37.12
+route_b: Chosen 41 times, with an Experience Weighted Moving Average Travel Time of 50.0
+
+
+Please think step by step. Please note that the shorter the travel time for the route you choose each day, the higher the bonus you will receive. Keep in mind that this is a game where your travel time is influenced by the choices of others. Since others have access to similar information, you must maximize your own benefit while anticipating their decisions. Additionally, your selection strategy should include an element of randomness.
+
+Please reason and choose route_a or route_b for today. Respond directly in JSON format, including 'Reason' (e.g., ...) and 'Choice' (e.g., route_i), without any additional text or explanations.
+        ",True
+14,William Wilson,A_B,route_a,"Route_a has a lower Experience Weighted Moving Average Travel Time compared to route_b, and I have a higher chance of receiving a higher bonus by choosing route_a.",38,"
+Your name is William Wilson. You are a non-binary or other gender character, aged 65 or older, with a middle income level, an employee, with a high school education, risk-averse, and traveling for leisure.  
+
+You are participating in a congestion game over 100 days (from day 0 to day 99), and today is day 88.In this game, your rewards depend on others’ choices. Every day, you need to drive from location A to location B, choosing between two routes. At the end of the game, you will be paid a reward consisting of a 15 RMB show-up fee plus a performance-based bonus. The bonus is calculated by subtracting your travel time from a fixed reward.
+
+Here is your historical travel data:
+Yesterday: route_a’s travel time was 10, route_b’s travel time was 54, and you chose route_b.
+Yesterday, you received a -0.28 RMB bonus, bringing your cumulative bonus to 1.440000000000001 RMB.
+Your historical travel experiences for each route over the past 89 days are as follows:
+route_a: Chosen 51 times, with an Experience Weighted Moving Average Travel Time of 29.97
+route_b: Chosen 37 times, with an Experience Weighted Moving Average Travel Time of 54.18
+
+
+Please think step by step. Please note that the shorter the travel time for the route you choose each day, the higher the bonus you will receive. Keep in mind that this is a game where your travel time is influenced by the choices of others. Since others have access to similar information, you must maximize your own benefit while anticipating their decisions. Additionally, your selection strategy should include an element of randomness.
+
+Please reason and choose route_a or route_b for today. Respond directly in JSON format, including 'Reason' (e.g., ...) and 'Choice' (e.g., route_i), without any additional text or explanations.
+        ",True
+15,Lisa Hill,A_B,route_a,"Route_a has a lower Experience Weighted Moving Average Travel Time compared to route_b, and I have chosen route_b more frequently in the past. Additionally, I have a risk-seeking nature, so I will choose route_a today to introduce some randomness into my decision-making.",38,"
+Your name is Lisa Hill. You are a female character, aged 65 or older, with a middle income level, self-employed, with a bachelor's degree, risk-seeking, and traveling for shopping.  
+
+You are participating in a congestion game over 100 days (from day 0 to day 99), and today is day 88.In this game, your rewards depend on others’ choices. Every day, you need to drive from location A to location B, choosing between two routes. At the end of the game, you will be paid a reward consisting of a 15 RMB show-up fee plus a performance-based bonus. The bonus is calculated by subtracting your travel time from a fixed reward.
+
+Here is your historical travel data:
+Yesterday: route_a’s travel time was 10, route_b’s travel time was 54, and you chose route_b.
+Yesterday, you received a -0.28 RMB bonus, bringing your cumulative bonus to 3.7 RMB.
+Your historical travel experiences for each route over the past 89 days are as follows:
+route_a: Chosen 53 times, with an Experience Weighted Moving Average Travel Time of 34.63
+route_b: Chosen 35 times, with an Experience Weighted Moving Average Travel Time of 50.86
+
+
+Please think step by step. Please note that the shorter the travel time for the route you choose each day, the higher the bonus you will receive. Keep in mind that this is a game where your travel time is influenced by the choices of others. Since others have access to similar information, you must maximize your own benefit while anticipating their decisions. Additionally, your selection strategy should include an element of randomness.
+
+Please reason and choose route_a or route_b for today. Respond directly in JSON format, including 'Reason' (e.g., ...) and 'Choice' (e.g., route_i), without any additional text or explanations.
+        ",True
