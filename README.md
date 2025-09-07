@@ -96,13 +96,6 @@ Note: The LLM-gpt35 simulation was run for 100 days, so the average travel time 
      setx AZURE_ENDPOINT "https://your-resource-name.openai.azure.com"
      ```
 
-   *(Optional)* If your deployment or SDK requires explicit version or deployment name, also set:
-
-   ```bash
-   export AZURE_OPENAI_API_VERSION="2024-07-01-preview"
-   export AZURE_OPENAI_DEPLOYMENT="your_deployment_name"
-   ```
-
    ### Option B — OpenRouter (multi-provider gateway)
    refer to https://openrouter.ai/docs/quickstart
 
@@ -143,7 +136,6 @@ Note: The LLM-gpt35 simulation was run for 100 days, so the average travel time 
    ```
 
    > **Security tip:** Never commit your `.env` or API keys to version control.  
-   > Add `.env` to `.gitignore`.
 
 4. **Run an example**
 
