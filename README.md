@@ -103,17 +103,8 @@ Note: The LLM-gpt35 simulation was run for 100 days, so the average travel time 
    export AZURE_OPENAI_DEPLOYMENT="your_deployment_name"
    ```
 
-   ### Option B — OpenAI (platform.openai.com)
-
-   If you choose OpenAI directly, set:
-
-   ```bash
-   export OPENAI_API_KEY="your_api_key_here"
-   ```
-
-   and make sure your client code uses the OpenAI endpoint.
-
-   ### Option C — OpenRouter (multi-provider gateway)
+   ### Option B — OpenRouter (multi-provider gateway)
+   refer to https://openrouter.ai/docs/quickstart
 
    ```bash
    export OPENROUTER_API_KEY="your_api_key_here"
@@ -121,15 +112,6 @@ Note: The LLM-gpt35 simulation was run for 100 days, so the average travel time 
 
    (You may also need to set a base URL in your client if not using their SDK:
    `OPENAI_BASE_URL="https://openrouter.ai/api/v1"`.)
-
-   ### Option D — DeepSeek
-
-   ```bash
-   export DEEPSEEK_API_KEY="your_api_key_here"
-   ```
-
-   (If required by your client, also set the base URL:
-   `OPENAI_BASE_URL="https://api.deepseek.com/v1"`.)
 
    ---
 
@@ -168,35 +150,6 @@ Note: The LLM-gpt35 simulation was run for 100 days, so the average travel time 
    ```bash
    python LLMTraveler-OW.py --temperature 0.6
    ```
-
-   Common flags (examples):
-
-   ```bash
-   # adjust randomness
-   --temperature 0.4
-   
-   # select a model/deployment if your code exposes it
-   --model gpt-4o-mini
-   
-   # set a random seed for reproducibility
-   --seed 42
-   ```
-
----
-
-## Troubleshooting
-
-- **`KeyError` or authentication errors**  
-  Ensure the correct environment variables are set for the provider you chose. Restart your shell (or `source ~/.zshrc` / reopen PowerShell) after `setx` on Windows.
-
-- **Azure-specific: “deployment not found / use deployment name”**  
-  Azure uses **deployment names** (not raw model names). Make sure `AZURE_OPENAI_DEPLOYMENT` matches the deployment you created in the Azure portal.
-
-- **`.env` not taking effect**  
-  Confirm `python-dotenv` is installed and `load_dotenv()` is executed before reading `os.getenv(...)`.
-
-- **Network / 429 rate limits**  
-  Reduce concurrency or temperature, add retry logic, or check account quota.
 
 
 ## Citation
