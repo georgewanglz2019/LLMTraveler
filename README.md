@@ -1,11 +1,16 @@
 # LLMTraveler
 
-## Route Choice Modeling Using LLM-based Agent
-This project explores the potential of Large Language Models (LLMs) to model human-like route choice behavior by introducing the "LLMTraveler" agent, which integrates an LLM with a memory system for learning and adaptation. The experiments demonstrate that the framework can partially replicate human-like decision-making in route choice, while also providing natural language explanations for its decisions.
+
+📄 **Publication**  
+We are delighted to share that our work has been accepted and published in  
+*Transportation Research Part C: Emerging Technologies*! 🎉  
+
+Read the paper here:  
+[Agentic Large Language Models for Day-to-Day Route Choices](https://www.sciencedirect.com/science/article/pii/S0968090X25003110)  
 
 ---------------------------------------------------------------------------------------------------
-If you are interested in the detailed methodology and results of this project, please refer to our paper:
-[AI-Driven Day-to-Day Route Choice](https://arxiv.org/abs/2412.03338)
+## Route Choice Modeling Using LLM-based Agent
+This project explores the potential of Large Language Models (LLMs) to model human-like route choice behavior by introducing the "LLMTraveler" agent, which integrates an LLM with a memory system for learning and adaptation. The experiments demonstrate that the framework can partially replicate human-like decision-making in route choice, while also providing natural language explanations for its decisions.
 
 ---------------------------------------------------------------------------------------------------
 
@@ -38,14 +43,17 @@ Note: The LLM-gpt35 simulation was run for 100 days, so the average travel time 
 ---------------------------------------------------------------------------------------------------
 
 ## Coming Soon
-The full code will be released after the review process is completed.
+The project code is currently being organized and will be uploaded soon.
 
 ## Citation
 
 ```python
-@article{wang2024ai,
-  title={AI-Driven Day-to-Day Route Choice},
-  author={Wang, Leizhen and Duan, Peibo and He, Zhengbing and Lyu, Cheng and Chen, Xin and Zheng, Nan and Yao, Li and Ma, Zhenliang},
-  journal={arXiv preprint arXiv:2412.03338},
-  year={2024}
+@article{Wang2025LLMTraveler,
+  title   = {Agentic Large Language Models for day-to-day route choices},
+  author  = {Wang, Leizhen and Duan, Peibo and He, Zhengbing and Lyu, Cheng and Chen, Xin and Zheng, Nan and Yao, Li and Ma, Zhenliang},
+  journal = {Transportation Research Part C: Emerging Technologies},
+  volume  = {180},
+  pages   = {105307},
+  year    = {2025},
+  doi     = {10.1016/j.trc.2025.105307}
 }
