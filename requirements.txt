@@ -1,0 +1,6 @@
+networkx
+pandas
+matplotlib
+openai
+openpyxl
+python-dotenv
