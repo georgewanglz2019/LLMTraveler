@@ -47,7 +47,7 @@ The project code is currently being organized and will be uploaded soon.
 
 ## Citation
 
-```python
+```bibtex
 @article{Wang2025LLMTraveler,
   title   = {Agentic Large Language Models for day-to-day route choices},
   author  = {Wang, Leizhen and Duan, Peibo and He, Zhengbing and Lyu, Cheng and Chen, Xin and Zheng, Nan and Yao, Li and Ma, Zhenliang},
