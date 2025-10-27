@@ -64,78 +64,36 @@ Note: The LLM-gpt35 simulation was run for 100 days, so the average travel time 
    pip install -r requirements.txt
    ```
 
-3. **Configure LLM access (choose one provider)**
+3. **Configure API access with `.env`**
 
-   > The project uses environment variables by default.  
-   > In our code (see `LLM_Client.py`), Azure OpenAI is the default:
-   >
-   > ```python
-   > client = AzureOpenAI(
-   >  azure_endpoint=os.getenv("AZURE_ENDPOINT"),
-   >  api_key=os.getenv("AZURE_OPENAI_API_KEY"),
-   >  api_version="2024-07-01-preview"
-   > )
-   > ```
+   This project uses environment variables to manage API keys.  
+   The recommended way is to use [`python-dotenv`](https://pypi.org/project/python-dotenv/) for local development.
 
-   ### Option A — Azure OpenAI (default in repo)
+   1. Make sure `python-dotenv` is installed (already included above).  
+   2. Create a `.env` file in the project root and add your credentials:
 
-   1) **Get access & deploy a model** via Azure OpenAI.  
-   2) **Set environment variables**:
+      ```dotenv
+      # Example: Azure OpenAI
+      AZURE_OPENAI_API_KEY=your_api_key_here
+      AZURE_ENDPOINT=https://your-resource-name.openai.azure.com
+      AZURE_OPENAI_API_VERSION=2024-07-01-preview
 
-   - **macOS / Linux (bash/zsh):**
+      # (Optional alternative providers)
+      # OPENAI_API_KEY=your_api_key_here
+      # OPENROUTER_API_KEY=your_api_key_here
+      # DEEPSEEK_API_KEY=your_api_key_here
+      # OPENAI_BASE_URL=https://openrouter.ai/api/v1
+      # OPENAI_BASE_URL=https://api.deepseek.com/v1
+      ```
 
-     ```bash
-     export AZURE_OPENAI_API_KEY="your_api_key_here"
-     export AZURE_ENDPOINT="https://your-resource-name.openai.azure.com"
-     ```
+   3. Load environment variables once at startup (already handled in many setups):
 
-   - **Windows (PowerShell):**
+      ```python
+      from dotenv import load_dotenv
+      load_dotenv()  # reads .env into environment variables
+      ```
 
-     ```powershell
-     setx AZURE_OPENAI_API_KEY "your_api_key_here"
-     setx AZURE_ENDPOINT "https://your-resource-name.openai.azure.com"
-     ```
-
-   ### Option B — OpenRouter (multi-provider gateway)
-   refer to https://openrouter.ai/docs/quickstart
-
-   ```bash
-   export OPENROUTER_API_KEY="your_api_key_here"
-   ```
-
-   (You may also need to set a base URL in your client if not using their SDK:
-   `OPENAI_BASE_URL="https://openrouter.ai/api/v1"`.)
-
-   ---
-
-   #### Using `python-dotenv` (recommended for local dev)
-
-   1) Ensure `python-dotenv` is installed (already included above).  
-   2) Create a `.env` file in the project root:
-
-   ```dotenv
-   # Choose one provider; Azure is shown here
-   AZURE_OPENAI_API_KEY=your_api_key_here
-   AZURE_ENDPOINT=https://your-resource-name.openai.azure.com
-   AZURE_OPENAI_API_VERSION=2024-07-01-preview
-   # AZURE_OPENAI_DEPLOYMENT=your_deployment_name
-   
-   # (Alternative providers)
-   # OPENAI_API_KEY=your_api_key_here
-   # OPENROUTER_API_KEY=your_api_key_here
-   # DEEPSEEK_API_KEY=your_api_key_here
-   # OPENAI_BASE_URL=https://openrouter.ai/api/v1
-   # OPENAI_BASE_URL=https://api.deepseek.com/v1
-   ```
-
-   3) Make sure your Python entry loads it once at startup (already done in many setups):
-
-   ```python
-   from dotenv import load_dotenv
-   load_dotenv()  # reads .env into environment variables
-   ```
-
-   > **Security tip:** Never commit your `.env` or API keys to version control.  
+   > **Tip:** Never commit your `.env` file or any API keys to version control.
 
 4. **Run an example**
 
