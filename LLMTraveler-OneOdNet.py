@@ -9,6 +9,9 @@ from load_OW_net_config import *
 from utils import create_output_directory, setup_logging, save_dict_to_json, get_random_character
 from config import get_config, save_args, load_args
 
+from dotenv import load_dotenv
+load_dotenv()  # reads .env into environment variables
+
 
 class OneOD_Net:
     """

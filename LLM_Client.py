@@ -4,6 +4,9 @@ import json
 import time
 import os
 
+from dotenv import load_dotenv
+load_dotenv()  # reads .env into environment variables
+
 
 class LLM_Client:
     def __init__(self, logging, temperature=0., model='azure_gpt35', max_tokens=4096):
